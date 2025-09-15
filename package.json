@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/index.ts",
-    "dev:mongo": "tsx watch src/index-mongo.js",
+    "dev:mongo": "tsx watch src/index-mongo.ts",
     "build": "npm install && tsc",
     "start": "node dist/index-mongo.js",
     "test": "echo \"Error: no test specified\" && exit 1"
